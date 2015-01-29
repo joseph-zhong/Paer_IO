@@ -852,7 +852,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #27ae60 url('images/screenshot_framed-2.png') bottom center no-repeat;
+		background: #27ae60 url('images/screenshot_framed-2.png') center no-repeat;
 		/*padding: 5em 0 5em 0; */
 		padding-bottom: 30%;
 		margin: 0;
