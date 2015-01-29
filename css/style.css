@@ -851,10 +851,9 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		text-align: center;
 		background: #27ae60 url('') center no-repeat;
 		/*padding: 5em 0 5em 0; */
-		padding-bottom: 30%;
+		padding-bottom: 5%;
 		margin: 0;
 		background-size: 70% auto;
 	}
@@ -880,6 +879,7 @@
 		#banner p
 		{
 			margin: 0;
+			text-align: center;
 		}
 
 		#banner footer
@@ -897,7 +897,14 @@
 			{
 				border-bottom-color: rgba(255,255,255,0);
 			}
+		
+		
+		#banner div img
+		{
+			width: 50%;
+		}
 
+		
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
