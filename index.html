@@ -16,11 +16,20 @@
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
-		<noscript>
+		
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="animate.min.css">
-		</noscript>
+			<link rel="stylesheet" href="css/animate.css" />
+			
+			<style>
+			img.test 
+			{
+			  -webkit-animation-duration: 0.3s;
+			  -webkit-animation-delay: 2s;
+			  -webkit-animation-iteration-count: infinite;
+			}
+			</style>
+		
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -37,20 +46,21 @@
 				</footer>
 			</section>
 		
+		
+		
 		<!-- Banner -->
 			<section id="banner">
 				<header>
 					<h2>
-						This is Linkt
-						<br></br>
-						<br></br>
-						<img src="/LinktWebsite/images/iphone6_gold_portrait.png"></img>
-						<img src="/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+						<p>This is Linkt</p>
 					</h2>
+						<div>
+							<img id="leftImage" class="animated bounceInLeft " src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+							<img id="rightImage" class="animated bounceInRight " style="float:left"src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+						</div>
 				</header>
 			</section>
-		
-	
+			
 		<section id="footer">
 			<ul class="icons">
 				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
