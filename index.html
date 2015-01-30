@@ -19,7 +19,17 @@
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="animate.min.css">
+			<link rel="stylesheet" href="css/animate.css" />
+			
+			<style>
+			#test 
+			{
+			  -vendor-animation-duration: 3s;
+			  -vendor-animation-delay: 2s;
+			  -vendor-animation-iteration-count: infinite;
+			}
+			</style>
+			
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
@@ -37,6 +47,8 @@
 				</footer>
 			</section>
 		
+		<img id="test" class="animated infinite bounceInLeft " src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+		
 		<!-- Banner -->
 			<section id="banner">
 				<header>
@@ -44,8 +56,8 @@
 						<p>This is Linkt</p>
 					</h2>
 						<div>
-							<img id="leftImage" class="animated BounceInLeft infinite" src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
-							<img id="rightImage" class="animated BounceInRight infinite" style="float:left"src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+							<img id="leftImage" class="animated infinite bounceInLeft " src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
+							<img id="rightImage" class="animated infinite bounceInRight " style="float:left"src="http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait.png"></img>
 						</div>
 				</header>
 			</section>
