@@ -853,7 +853,7 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		background: #e87272 url('') center no-repeat;
+		/*background: #e87272 url('') center no-repeat;*/
 		/*padding: 5em 0 5em 0; */
 		padding-bottom: 5%;
 		margin: 0;
@@ -902,7 +902,8 @@
 		
 		.myVideo 
 		{ /* THE WIDTH OF THE FRAME ON THE SIDE IS 12PX */
-			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_silver_portrait_SMALL_COMP.jpg");
+			/*background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_silver_portrait_SMALL_COMP.jpg");*/
+			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_silver_portrait_SMALL.png");
 			background-size: 280px 560px;
 			background-position: 100.5%;
 			background-repeat:no-repeat;
@@ -914,7 +915,8 @@
 		
 		.myVideo2
 		{
-			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL_COMP.jpg");
+			/*background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL_COMP.jpg");*/
+			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL.png");
 			background-size: 280px 560px;
 			background-position: 50px;
 			background-repeat:no-repeat;
