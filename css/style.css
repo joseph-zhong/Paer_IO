@@ -20,7 +20,7 @@
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
 		background-attachment:	fixed,								fixed;
-		overflow-x: hidden;
+		/*overflow-x: hidden;*/
 	}
 
 		body.is-scroll
@@ -899,19 +899,13 @@
 				border-bottom-color: rgba(255,255,255,0);
 			}
 		
-		
-		#banner div img
-		{
-			width: 50%;
-		}
-
 		.myVideo 
 		{
 			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL.png");
 			background-size: 280px 560px;
-			background-position: 300px;
+			background-position: 250px;
 			background-repeat:no-repeat;
-			padding-left: 312px;
+			padding-left: 262px;
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
@@ -927,6 +921,12 @@
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
+		}
+		
+		.sideBySide
+		{
+			float: left;
+			padding-right: 12px;
 		}
 		
 /*********************************************************************************/
