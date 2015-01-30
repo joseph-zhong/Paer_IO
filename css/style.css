@@ -15,7 +15,8 @@
 	body
 	{
 		background-color:		#183026;
-		background-image:		url(''),			url('');
+		/*background-image:		url(''),			url('http://josephzhong.me/LinktWebsite/css/images/RedBackgroundCOMP.jpg');*/
+		background-image:		url(''),			url('http://josephzhong.me/LinktWebsite/css/images/SafeCoNight.jpg');
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
@@ -43,7 +44,7 @@
 			animation: none !important;
 		}
 
-	body,input,textarea,selecth
+	body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
