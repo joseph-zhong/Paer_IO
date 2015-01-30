@@ -900,12 +900,12 @@
 			}
 		
 		.myVideo 
-		{
-			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL.png");
+		{ /* THE WIDTH OF THE FRAME ON THE SIDE IS 12PX */
+			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_silver_portrait_SMALL.png");
 			background-size: 280px 560px;
-			background-position: 250px;
+			background-position: 375px;
 			background-repeat:no-repeat;
-			padding-left: 262px;
+			padding-left: 387px;
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
@@ -915,9 +915,9 @@
 		{
 			background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL.png");
 			background-size: 280px 560px;
-			background-position: 800px;
+			background-position: 50px;
 			background-repeat:no-repeat;
-			padding-left: 812px;
+			padding-left: 62px;
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
