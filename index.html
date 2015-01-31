@@ -48,18 +48,31 @@
 			ga('create', 'UA-58067046-2', 'auto');
 			ga('send', 'pageview');
 
+			
+			$( document ).ready(function() 
+			{
+				//if (isScrolledIntoView('#leftVidDiv'))
+				{ 
+					
+	   
+					// The element is visible, do something
+					$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
+					$('#rightImage').addClass('animated bounceInRight myVideo2');
+					$('#leftImage').attr('visibility', 'visible');
+				}		
+			});
 		</script>
 		<!-- End Google Analytics -->
 		
 		<!-- Wait For scroll in view -->
+		<!--
 		<script>
 			// A $( document ).ready() block.
 		$( document ).ready(function() 
 		{
-			//if ($('#leftVidDiv').is(':visible')) 
+			if (isScrolledIntoView('#leftVidDiv'))
 			{ 
-			
-				alert('Paragraphs are visible (checked using is() method)!');  
+				
    
 				// The element is visible, do something
 				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
@@ -67,8 +80,19 @@
 				$('#leftImage').attr('visibility', 'visible');
 			}		
 		});
+
+		function isScrolledIntoView(elem)
+		{
+			var docViewTop = $(window).scrollTop();
+			var docViewBottom = docViewTop + $(window).height();
+
+			var elemTop = $(elem).offset().top;
+			var elemBottom = elemTop + $(elem).height();
+
+			return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+		}
 		</script>
-		
+		-->
 	</head>
 	<body>
 
