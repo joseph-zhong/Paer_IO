@@ -56,18 +56,16 @@
 			// A $( document ).ready() block.
 		$( document ).ready(function() 
 		{
+			//if ($('#leftVidDiv').is(':visible')) 
+			{ 
 			
-			{
+				alert('Paragraphs are visible (checked using is() method)!');  
+   
 				// The element is visible, do something
 				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
 				$('#rightImage').addClass('animated bounceInRight myVideo2');
 				$('#leftImage').attr('visibility', 'visible');
-			} 
-			else 
-			{
-				// The element is NOT visible, do something else
-				
-			}
+			}		
 		});
 		</script>
 		
@@ -75,7 +73,7 @@
 	<body>
 
 		<!-- Header -->
-			<section id="header" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoTop.jpg') no-repeat;">
+			<section id="header"
 				<header>
 					<h1>Knockit for IOS</h1>
 					Instantly save contacts and connect on numerous social platforms - just knockit!
@@ -87,22 +85,21 @@
 			</section>
 		
 		<!-- Banner -->
-			<section id="banner" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoMiddle.jpg') no-repeat; 
-				height: 100%;">
+			<section id="banner">
 				<header>
 					<h2>
 						<p>This is Knockit</p>
 					</h2>
 					
 					<div>
-						<div id="leftVidDiv" class="sideBySide animated bounceInLeft myVideo">
-							<video muted id="leftImage" width="250px" >
+						<div id="leftVidDiv" class="">
+							<video muted autoplay id="leftImage" width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
 						
-						<div id="rightImage" class="animated bounceInRight myVideo2">
-							<video  muted width="250px" >
+						<div id="rightImage" class="">
+							<video  muted autoplay width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
@@ -111,8 +108,7 @@
 				</header>
 			</section>
 			
-		<section id="footer" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoBottom.jpg') no-repeat; 
-		height: 100%;">
+		<section id="footer">
 			<ul class="icons">
 				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
