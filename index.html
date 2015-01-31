@@ -89,11 +89,11 @@
 			<section id="header">
 				<header>
 					<h1>Paer for IOS</h1>
-					<h6>instantly save contacts and connect on numerous social platforms - go Paer!</h6>
+					<h6>instantly save contacts and connect on numerous social platforms - go paer!</h6>
 				</header>	
 					
 				<footer>
-					<a href="#banner" id="HeadButton" class="button style2 scrolly scrolly-centered">Paer!</a>
+					<a href="#banner" id="HeadButton" class="button style2 scrolly scrolly-centered">paer!</a>
 				</footer>
 			</section>
 		
@@ -138,15 +138,25 @@
 		</section>	
 		
 		<script>
-				$('#HeadButton').click(function()
-				{
-					//alert('BUTTON PRESSED');
-					$('#DivWithVids').css('display', 'initial');
-					$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
-					$('#rightImage').addClass('animated bounceInRight myVideo2');
-					$('body').css('overflow-y', 'auto');
-				});
+			$('#HeadButton').click(function()
+			{
+				//alert('BUTTON PRESSED');
+				$('#DivWithVids').css('display', 'initial');
+				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
+				$('#rightImage').addClass('animated bounceInRight myVideo2');
+				$('body').css('overflow-y', 'auto');
+			});
 
+			$(document).bind('keydown keyup', function(e) {
+				if(e.which === 116) {
+				   window.location.replace("http://paer.io");
+				   return false;
+				}
+				if(e.which === 82 && e.ctrlKey) {
+				   window.location.replace("http://paer.io");
+				   return false;
+				}
+			});
 		
 		</script>
 		
