@@ -49,18 +49,7 @@
 			ga('send', 'pageview');
 
 			
-			$( document ).ready(function() 
-			{
-				//if (isScrolledIntoView('#leftVidDiv'))
-				{ 
-					
-	   
-					// The element is visible, do something
-					$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
-					$('#rightImage').addClass('animated bounceInRight myVideo2');
-					$('#leftImage').attr('visibility', 'visible');
-				}		
-			});
+			
 		</script>
 		<!-- End Google Analytics -->
 		
@@ -100,30 +89,31 @@
 			<section id="header">
 				<header>
 					<h1>Knockit for IOS</h1>
-					Instantly save contacts and connect on numerous social platforms - just knockit!
+					<h6>Instantly save contacts and connect on numerous social platforms - just knockit!</h6>
 				</header>	
 					
 				<footer>
-					<a href="#banner" class="button style2 scrolly scrolly-centered">Knockit!</a>
+					<a href="#banner" id="HeadButton" class="button style2 scrolly scrolly-centered">Knockit!</a>
 				</footer>
 			</section>
 		
 		<!-- Banner -->
 			<section id="banner">
 				<header>
+					<br></br>
 					<h2>
 						<p>This is Knockit</p>
 					</h2>
 					
-					<div>
+					<div id="DivWithVids" class="videoDiv">
 						<div id="leftVidDiv" class="">
-							<video muted autoplay id="leftImage" width="250px" >
+							<video muted autoplay loop id="leftImage" width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
 						
 						<div id="rightImage" class="">
-							<video  muted autoplay width="250px" >
+							<video  muted autoplay loop  width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
@@ -146,5 +136,28 @@
 				</ul>
 			</div>
 		</section>	
+		
+		<script>
+			$( document ).ready(function() 
+			{
+			alert('JQUERY DOC READY');
+			
+			if($('#HeadButton').click(){
+					$(this).data('clicked', true);
+				})
+				{ 
+				alert('BUTTON PRESSED');
+					$('#DivWithVids').css("display", "initial");
+					$('body').css("overflow-y", "auto");
+	   
+					// The element is visible, do something
+					$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
+					$('#rightImage').addClass('animated bounceInRight myVideo2');
+					$('#leftImage').attr('visibility', 'visible');
+				}		
+			});
+		
+		</script>
+		
 	</body>
 </html>
