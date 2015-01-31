@@ -22,7 +22,7 @@
 		background-size: 100%;
 		background-attachment: fixed;
 		overflow-x: hidden;
-		overflow-y: hidden;
+		overflow-y: scroll;
 	}
 
 		body.is-scroll
