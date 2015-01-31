@@ -20,16 +20,16 @@
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
-		background-attachment:	fixed,								fixed;
-		/*overflow-x: hidden;*/
+		/*background-attachment:	fixed,								fixed;*/
+		overflow-x: hidden;
 	}
-
+/*
 		body.is-scroll
 		{
 			background-attachment:	scroll,								scroll;
 			background-size:		auto,								100% auto;
 		}
-
+*/
 		body.is-loading *
 		{
 			-moz-transition: none !important;
@@ -853,7 +853,7 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		/*background: #e87272 url('') center no-repeat;*/
+		background: #27ae60 url('') center no-repeat;
 		/*padding: 5em 0 5em 0; */
 		padding-bottom: 5%;
 		margin: 0;
