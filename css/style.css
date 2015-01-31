@@ -16,13 +16,12 @@
 	body
 	{
 		/*background-color:		#183026;*/
-		/*background-image:		url('http://josephzhong.me/LinktWebsite/css/images/testRedImageCOMP.jpg');*/
-		background-image:		url('http://josephzhong.me/LinktWebsite/css/images/SafeCoNight.jpg');
+		background-image:		url('http://josephzhong.me/LinktWebsite/css/images/testRedImageCOMP.jpg');
+		/*background-image:		url('http://josephzhong.me/LinktWebsite/css/images/SafeCoNight.jpg');*/
 		background-repeat:		no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 		overflow-x: hidden;
-		
 	}
 
 		body.is-scroll
