@@ -50,13 +50,32 @@
 
 		</script>
 		<!-- End Google Analytics -->
+		
+		<!-- Wait For scroll in view -->
+		<script>
+			// A $( document ).ready() block.
+		$( document ).ready(function() 
+		{
+			
+			{
+				// The element is visible, do something
+				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
+				$('#rightImage').addClass('animated bounceInRight myVideo2');
+				$('#leftImage').attr('visibility', 'visible');
+			} 
+			else 
+			{
+				// The element is NOT visible, do something else
+				
+			}
+		});
+		</script>
+		
 	</head>
-	<body style="background: url('http://josephzhong.me/LinktWebsite/css/images/RedBackgroundCOMP.jpg') no-repeat; 
-		background-size: cover 100%; 
-		">
+	<body>
 
 		<!-- Header -->
-			<section id="header">
+			<section id="header" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoTop.jpg') no-repeat;">
 				<header>
 					<h1>Knockit for IOS</h1>
 					Instantly save contacts and connect on numerous social platforms - just knockit!
@@ -68,20 +87,21 @@
 			</section>
 		
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoMiddle.jpg') no-repeat; 
+				height: 100%;">
 				<header>
 					<h2>
 						<p>This is Knockit</p>
 					</h2>
 					
 					<div>
-						<div class="sideBySide animated bounceInLeft myVideo" >
-							
+						<div id="leftVidDiv" class="sideBySide animated bounceInLeft myVideo">
 							<video muted id="leftImage" width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
-						<div class="animated bounceInRight myVideo2" id="rightImage">
+						
+						<div id="rightImage" class="animated bounceInRight myVideo2">
 							<video  muted width="250px" >
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
@@ -91,7 +111,8 @@
 				</header>
 			</section>
 			
-		<section id="footer">
+		<section id="footer" style="background: url('http://josephzhong.me/LinktWebsite/css/images/SafecoBottom.jpg') no-repeat; 
+		height: 100%;">
 			<ul class="icons">
 				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
