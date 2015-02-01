@@ -113,7 +113,7 @@
 						</div>
 						
 						<div id="rightImage" class="">
-							<video  muted autoplay width="250px">
+							<video id="rightVidVid" muted autoplay width="250px">
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
@@ -162,7 +162,14 @@
 			});
 		
 		</script>
-		
+	<script>	
+		document.getElementById('leftImage').addEventListener('loadedmetadata', function() {
+		  this.currentTime = 2;
+		}, false);
+		document.getElementById('rightVidVid').addEventListener('loadedmetadata', function() {
+		  this.currentTime = 2;
+		}, false);
+	</script>
 		<script type="text/javascript">
 		$(document).ready(function () 
 		{
