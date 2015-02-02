@@ -652,7 +652,7 @@
 			{
 				font-weight: 600;
 				font-size: 2em;
-				letter-spacing: 10px;
+				letter-spacing: 5px;
 			}
 
 			#header header p
@@ -720,19 +720,30 @@
 		/*background: #E26A6A;*/
 		/*padding: 5em 0 5em 0; */
 		padding-bottom: 5%;
-		margin: 0;
+		
+		
 		background-size: 70% auto;
 	}
 
 		#banner .button
 		{
-			color: #35b882;
+			color: #363F3B;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
+			
+			/*padding-left: 50%;*/
 		}
 
+		
 		#banner header
 		{
 			margin: 0 0 2em 0;
+			
+		}
+		
+		#banner div.ReplayDiv
+		{
+			
+			text-align: center;
 		}
 		
 			#banner header h2
@@ -744,26 +755,11 @@
 
 		#banner p
 		{
+			text-shadow: 2px 0.5px 0.5px rgba(0,0,0,0.3);
 			margin: 0;
 			text-align: center;
 		}
 
-		#banner footer
-		{
-			margin: 2em 0 0 0;
-		}
-		
-		#banner a
-		{
-			color: inherit;
-			border-bottom-color: rgba(255,255,255,0.5);
-		}
-		
-			#banner a:hover
-			{
-				border-bottom-color: rgba(255,255,255,0);
-			}
-		
 		.videoDiv
 		{
 			display: none;
@@ -776,7 +772,8 @@
 			background-size: 280px 560px;
 			background-position: 100.5%;
 			background-repeat:no-repeat;
-			padding-left: calc(50% - 280px);
+			padding-left: calc(50% - 277px);
+			
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
@@ -784,16 +781,18 @@
 		
 		.myVideo2
 		{
+			
 			/*background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL_COMP.jpg");*/
 			/*background-image: url("http://josephzhong.me/LinktWebsite/images/iphone6_gold_portrait_SMALL.png");*/
 			background-image: url("https://raw.githubusercontent.com/Jaberer/LinktWebsite/gh-pages/images/iphone6_gold_portrait_SMALL.png");
 			background-size: 280px 560px;
-			background-position: 50px;
+			background-position: 45px;
 			background-repeat:no-repeat;
 			padding-left: 62px;
 			padding-bottom: 75px;
 			padding-top: 70px;
 			overflow:hidden;
+			
 		}
 		
 		.sideBySide
@@ -801,6 +800,7 @@
 			float: left;
 			padding-right: 12px;
 		}
+			
 		
 		#header footer
 		{
@@ -821,7 +821,7 @@
 				border-left: solid 1px #fff;
 			}
 		
-			#header footer:before
+			#banner header:after
 			{
 				content: '';
 				display: block;
