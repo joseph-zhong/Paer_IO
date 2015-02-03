@@ -1,12 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Overflow by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	
-	
-	
--->
 <html>
 	<head>
 		<title>Paer - instantly save contacts and connect on your social platforms </title>
@@ -185,7 +177,7 @@
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="#">Meet the team</a>.</li>
+					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="about/">Meet the team</a>.</li>
 				</ul>
 			</div>
 		</section>	
@@ -205,11 +197,9 @@
 					$('#rightImage').removeClass('bounceInRight');
 					$('#ReplayButton').css('display', 'initial');
 					$('#ReplayButton').addClass('animated fadeIn');
-					}, 3500  
+					}, 4700  
 				);  
 			});
-			
-			
 
 			$(document).bind('keydown keyup', function(e) {
 				if(e.which === 116) {
@@ -232,6 +222,7 @@
 				$('#leftVidDiv').addClass('bounceInLeft');
 				$('#rightImage').addClass('bounceInRight');
 				$('#ReplayButton').addClass('fadeOut');
+				$('#ReplayButton').removeClass('fadeIn');
 				
 				//alert('try Vid');
 				document.getElementById('leftVidVid').play();
@@ -250,7 +241,14 @@
 					$('#ReplayButton').css('display', 'none')
 					$('#ReplayButton').removeClass('fadeOut')
 					}, 2500  
-				);  
+				);
+
+				var wait2 = window.setTimeout( function(){  
+					//alert('hello replay');
+					$('#ReplayButton').addClass('fadeIn');
+					$('#ReplayButton').css('display', 'initial')
+					}, 8000
+				);  				
 			});
 		</script>
 		
