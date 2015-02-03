@@ -152,7 +152,7 @@
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="#">About us.</a></li>
+					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="#">Meet the team.</a></li>
 				</ul>
 			</div>
 		</section>	
@@ -161,23 +161,18 @@
 			$('#HeadButton').click(function()
 			{
 				//alert('BUTTON PRESSED');
-				$('#DivWithVids').css('display', 'initial');
 				$('#ReplayButton').css('display', 'none');
-				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
 				$('#rightImage').addClass('animated bounceInRight myVideo2');
-				
-				
-				
+				$('#leftVidDiv').addClass('sideBySide animated bounceInLeft myVideo');
 				$('body').css('overflow-y', 'auto');
-				
-				
+				$('#DivWithVids').css('display', 'initial');
 				
 				var wait = window.setTimeout( function(){  
-					$('#leftVidDiv').removeClass('bounceInLeft')
-					$('#rightImage').removeClass('bounceInRight')
-					$('#ReplayButton').css('display', 'initial')
-					$('#ReplayButton').addClass('animated fadeIn')
-					}, 1300  
+					$('#leftVidDiv').removeClass('bounceInLeft');
+					$('#rightImage').removeClass('bounceInRight');
+					$('#ReplayButton').css('display', 'initial');
+					$('#ReplayButton').addClass('animated fadeIn');
+					}, 2500  
 				);  
 			});
 			
@@ -210,7 +205,9 @@
 				$('#rightVidVid').currentTime = 1.5s;
 				alert('try Vid2');
 				*/
-				
+				$('#leftImage').currentTime = 1.5;
+				$('#rightVidVid').currentTime = 1.5;
+				alert('please');
 				var wait = window.setTimeout( function(){  
 					$('#leftVidDiv').removeClass('bounceInLeft')
 					$('#rightImage').removeClass('bounceInRight')
@@ -232,9 +229,6 @@
 			document.getElementById('rightVidVid').addEventListener('loadedmetadata', function() {
 			  this.currentTime = 1.5;
 			}, false);
-			
-			
-			
 		</script>
 		
 		<!-- Attempt to start at top of page correctly -->
