@@ -113,13 +113,13 @@
 					
 					<div id="DivWithVids" class="videoDiv">
 						<div id="leftVidDiv" class="">
-							<video muted autoplay id="leftImage" width="250px">
+							<video id="leftVidVid" muted autoplay id="leftImage" width="250px">
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
 						
 						<div id="rightImage" class="">
-							<video muted autoplay width="250px">
+							<video id ="rightVidVid" muted autoplay width="250px">
 								<source src="http://josephzhong.me/LinktWebsite/vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
@@ -152,7 +152,7 @@
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="#">Meet the team.</a></li>
+					<li>&copy; <a href="#">Paer</a>. All rights reserved. | <a href="#">Meet the team</a>.</li>
 				</ul>
 			</div>
 		</section>	
@@ -172,7 +172,7 @@
 					$('#rightImage').removeClass('bounceInRight');
 					$('#ReplayButton').css('display', 'initial');
 					$('#ReplayButton').addClass('animated fadeIn');
-					}, 2500  
+					}, 3500  
 				);  
 			});
 			
@@ -199,25 +199,23 @@
 				$('#leftVidDiv').addClass('bounceInLeft');
 				$('#rightImage').addClass('bounceInRight');
 				$('#ReplayButton').addClass('fadeOut');
+				
+				//alert('try Vid');
+				document.getElementById('leftVidVid').play();
+				document.getElementById('rightVidVid').play();
+				//alert('try Vid2');
 				/*
-				alert('try Vid');
-				$('#leftImage').currentTime = 1.5s;
-				$('#rightVidVid').currentTime = 1.5s;
-				alert('try Vid2');
-				*/
-				$('#leftImage').currentTime = 1.5;
+				$('#leftVidVid').currentTime = 1.5;
 				$('#rightVidVid').currentTime = 1.5;
-				alert('please');
+				alert('try Vid3');
+				*/
 				var wait = window.setTimeout( function(){  
 					$('#leftVidDiv').removeClass('bounceInLeft')
 					$('#rightImage').removeClass('bounceInRight')
 					$('#ReplayButton').css('display', 'none')
 					$('#ReplayButton').removeClass('fadeOut')
-					}, 1300  
+					}, 2500  
 				);  
-				
-				
-				
 			});
 		</script>
 		
