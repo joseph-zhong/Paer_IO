@@ -2,16 +2,9 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600');
 @import url('font-awesome.min.css');
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
 
 	body
 	{
@@ -694,19 +687,7 @@
 				border-left: solid 1px #fff;
 			}
 		
-			#header footer:before
-			{
-				content: '';
-				display: block;
-				width: 90px;
-				height: 66px;
-				position: absolute;
-				left: 50%;
-				bottom: -4.5em;
-				margin-left: -45px;
-				margin-bottom: -33px;
-				background: url('images/arrow.svg') no-repeat;
-			}
+			
 	
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -801,40 +782,6 @@
 			padding-right: 12px;
 		}
 			
-		
-		#header footer
-		{
-			position: absolute;
-			bottom: 9em;
-			margin: 0;
-			width: 100%;
-		}
-
-			#header footer:after
-			{
-				content: '';
-				display: block;
-				position: absolute;
-				bottom: -9em;
-				left: 50%;
-				height: 9em;
-				border-left: solid 1px #fff;
-			}
-		
-			#banner header:after
-			{
-				content: '';
-				display: block;
-				width: 90px;
-				height: 66px;
-				position: absolute;
-				left: 50%;
-				bottom: -4.5em;
-				margin-left: -45px;
-				margin-bottom: -33px;
-				background: url('images/arrow.svg') no-repeat;
-			}
-		
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -887,3 +834,48 @@
 			margin: 0 0 9em 0;
 			font-size: 0.8em;
 		}
+
+		
+/*********************************************************************************/
+/* ABOUT THE TEAM
+/*********************************************************************************/
+#team
+{
+	text-shadow: 2px 0.5px 0.5px rgba(0,0,0,0.3);
+	text-align: center;
+	position: relative;
+	color: #fff;
+	background-color: rgba(226, 106, 106, 0.4);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#team h1
+{
+	font-size: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.75em;
+}
+
+#team .container
+{
+	width: 100%; 
+	margin: 0px auto;
+}
+
+#team .teamPic2
+{
+	text-align: center; 
+	padding-bottom: 5%;
+}
+
+/*
+#Joseph { background: url(http://www.paer.io/images/team/JosephFace.png) no-repeat -9999px -9999px; }
+#Jack {  
+background: url(http://www.paer.io/images/team/JackFace.png) no-repeat -9999px -9999px; }
+#Kate { background: url(http://www.paer.io/images/team/KateFace.png) no-repeat -9999px -9999px; }
+#Aneesh { background: url(http://www.paer.io/images/team/AneeshFace.png) no-repeat -9999px -9999px; }
+#Nikhil { background: url(http://www.paer.io/images/team/NikhilFace.png) no-repeat -9999px -9999px; }
+#Calvin { background: url(http://www.paer.io/images/team/CalvinFace.png) no-repeat -9999px -9999px; }
+*/
