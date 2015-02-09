@@ -954,3 +954,37 @@ background: url(http://www.paer.io/images/team/JackFace.png) no-repeat -9999px -
 	-moz-transform: scale(1.15);
 	transform: scale(1.15);
 }
+
+/********************************************
+-----------------Email List -----------------------
+*********************************************/
+
+
+#email-list h1
+{
+	color: #fff;
+	font-weight: 200;
+	font-size: 2em;
+	margin-bottom: 3%;
+}
+
+#email-list input
+{
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
