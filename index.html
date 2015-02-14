@@ -366,5 +366,20 @@
 			$('body').css('overflow-y', 'hidden');
 		});
 	</script>
+	
+	<script>
+		// detects when scroll stops
+		$(window).mousewheel(function() {
+			clearTimeout($.data(this, 'timer'));
+			document.getElementById('leftVidVid').pause();
+			document.getElementById('rightVidVid').pause();
+		 $.data(this, 'timer', setTimeout(function() {
+			 //alert("Haven't scrolled!");
+			document.getElementById('leftVidVid').play();
+			document.getElementById('rightVidVid').play(); 
+			 //do something
+		 }, 100));
+		});
+	</script>
 	</body>
 </html>
