@@ -46,7 +46,7 @@
 			<link rel="stylesheet" href="css/animate.css" />
 			
 			<style>
-				#leftImage 
+				#leftVidDiv
 				{
 				  -webkit-animation-duration: 1s;
 				  -webkit-animation-delay: 1.5s;
@@ -138,7 +138,7 @@
 					
 					<div id="DivWithVids" class="videoDiv">
 						<div id="leftVidDiv" class="">
-							<video id="leftVidVid" muted autoplay id="leftImage" width="250px">
+							<video id="leftVidVid" muted autoplay width="250px">
 								<source src="vid/KnockitDemoV3.mp4" type="video/mp4"> 
 							</video>
 						</div>
@@ -349,7 +349,7 @@
 		
 		<!-- Set Time Offset on Video -->
 		<script>	
-			document.getElementById('leftImage').addEventListener('loadedmetadata', function() {
+			document.getElementById('leftVidVid').addEventListener('loadedmetadata', function() {
 			  this.currentTime = 1.5;
 			}, false);
 			document.getElementById('rightVidVid').addEventListener('loadedmetadata', function() {
