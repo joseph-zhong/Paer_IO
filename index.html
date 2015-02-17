@@ -486,12 +486,24 @@
 			clearTimeout($.data(this, 'timer'));
 			document.getElementById('leftVidVid').pause();
 			document.getElementById('rightVidVid').pause();
-		 $.data(this, 'timer', setTimeout(function() {
+			$('#slider').addClass('fadeOut');
+			$('#slider').css('display', 'none');
+		
+		$.data(this, 'timer', setTimeout(function() {
 			 //alert("Haven't scrolled!");
 			document.getElementById('leftVidVid').play();
-			document.getElementById('rightVidVid').play(); 
-			 //do something
-		 }, 100));
+			document.getElementById('rightVidVid').play();
+			clearTimeout($.what(this, 'timer'));
+		}, 800));
+
+		$.what(this, 'timer', setTimeout(function()
+		{
+			$('#slider').removeClass('fadeOut');
+			$('#slider').addClass('fadeIn');
+			$('#slider').css('display', 'initial');
+		}, 800));
+		
+
 		});
 	</script>
 	</body>
