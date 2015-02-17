@@ -1000,3 +1000,94 @@ background: url(http://www.paer.io/images/team/JackFace.png) no-repeat -9999px -
 :-ms-input-placeholder {  
    text-align: center; 
 }
+
+/********************************************
+----------------- Contact -------------------
+*********************************************/
+
+
+#slider {
+	text-align: right;
+	top:100px;
+	position:fixed;
+	left: auto;
+	right: 0px;
+}
+
+#slider_header {
+	left: auto;
+	right:-260px;
+	text-align: right;
+	position:fixed;
+	top: 100px;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.65);
+	width:260px;
+	border:1px solid #d8d8d8;
+	padding:10px 15px;
+	/*
+	border-radius:3px;
+	box-shadow:0 0 8px gray
+	*/
+}
+
+#slider_header form
+{
+	margin-top:10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	/*
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	*/
+}
+
+#slider_header input[type=text] {
+	margin-top:10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+}
+
+#slider_header input[type=email] {
+	margin-top:10px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+}
+
+
+#slider_header h2 {
+	color:rgb(38,38,38);
+	text-align: center;
+}
+
+
+#slider_header textarea {
+	resize: vertical;
+	padding:6px;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	margin-top:10px;
+	height:10%;
+	width:100%
+}
+
+#slider_header button {
+	background:#2bc1f2;
+	border:none;
+	color:#fff;
+	width:100%;
+	font-size:15px;
+	font-weight:bolder;
+	padding:8px 0;
+	border-radius:3px;
+	cursor:pointer;
+	margin-top:20px;
+}
