@@ -1012,6 +1012,18 @@ background: url(http://www.paer.io/images/team/JackFace.png) no-repeat -9999px -
 	position:fixed;
 	left: auto;
 	right: 0px;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: 1;
+	-vendor-animation-duration: 4s;
+	-vendor-animation-delay: 0s;
+	-vendor-animation-iteration-count: 1;
+	-moz-animation-duration: 4s;
+	-moz-animation-delay: 0s;
+	-moz-animation-iteration-count: 1;
+	-ms-animation-duration: 4s;
+	-ms-animation-delay: 0s;
+	-ms-animation-iteration-count: 1;
 }
 
 #slider_header {
