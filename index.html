@@ -35,12 +35,12 @@
 		
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.easing.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/jquery.mousewheel.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
 		
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -108,12 +108,9 @@
 		</script>
 		<!-- End Google Analytics -->
 		
-		<!-- Video Caching -->
-		<script>
-			
-			
-		</script>
-		
+		<!-- Validation -->
+		<script src="js/jquery.validation.min.js"></script>
+
 	</head>
 	<body>
 
@@ -157,37 +154,9 @@
 				</header>
 			</section>
 			
-			
-			
-			<!-- In Progress Email Sign up -->
-			<!--
-			<div id="mc_embed_signup">
-				<form action="javascript: postContactToGoogle()" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" role="form" target="_blank" novalidate="">
-					
-					<input type="email" class="form-control center" value="" name="EMAIL" id="mce-EMAIL" placeholder="subscribe to emails" required="">
-				</form>
-			</div>
-			-->
-			
-
-			
-			
 			<section id="team">
 				<h1>Meet the Team</h1>
 				
-				<!--
-				<div style="text-align: center; padding-top:4%; padding-bottom: 5%;" class="hover-text">
-						<figure style="float: left; text-align: center;">
-							<img id="Aneesh" style="text-align: center; margin-right: 5%;" src="http://www.paer.io/images/team/AneeshFace3.png" alt="Aneesh" height="250" width="250"></img> 
-						</figure>
-						<figure>
-							<img id="Calvin" style="text-align: center; margin-right: 5%;"  src="http://www.paer.io/images/team/CalvinFace3.png" alt="Calvin" height="250" width="250"></img>
-						</figure>
-						<figure>
-							<img id="Kate" class="" style="display: inline-block; margin-left: auto; margin-right: auto;" src="http://www.paer.io/images/team/KateFace3.png" alt="Kate" height="250" width="250"></img>
-						</figure>
-				</div>
-				-->
 					<ul class="photo-grid">
 					<li>
 						<figure>
@@ -240,20 +209,18 @@
 
 <section id="email-list">			
 	<div class="ss-form">
-			
 		<form action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse" method="POST" id="ss-form" target="_blank" onsubmit="">
 			<div class="ss-form-question errorbox-good" role="listitem">
 				<div dir="ltr" class="ss-item ss-item-required ss-text">
 					<div class="ss-form-entry" style="text-align: center;">
 						<h1 id="email-list">Subscribe</h1>
-						<input type="email" placeholder="enter your email" name="entry.1579194098" value="" class="ss-q-short required" id="entry_1579194098" dir="auto" aria-label="Email" aria-required="true" required="" title="" aria-invalid="true">
+						<input type="email" placeholder="enter your email" name="entry.1579194098" value="" class="ss-q-short required" id="entry_1579194098" dir="auto" aria-label="Email" aria-required="true" required="true" title="" aria-invalid="true">
 					</div>
 				</div>
 			</div>
 			<input type="hidden" name="draftResponse" value="[,,&quot;3061552175398340696&quot;]">
 			<input type="hidden" name="pageHistory" value="0">
 			<input type="hidden" name="fbzx" value="3061552175398340696">
-		
 		</form>
 	</div>
 </section>
@@ -277,6 +244,151 @@
 			</div>
 		</section>	
 		
+<!-- Sliding div starts here -->
+
+	<div id="slider">
+		<img id="contactUs" src="images/contact/contact.jpg">
+	</div>
+	<div id="slider_header">
+		<h2>Contact</h2>
+		<!--
+		<form action="javascript:sendMail();" method="post" id="" target="" onsubmit="">
+			<input id="dname" name="dname" type="text" placeholder="your name" class="ss-q-short required" dir="auto" aria-label=	"Name" aria-required="true" required="" title="" aria-invalid="true">
+			<input name="demail" type="text" placeholder="email" class="ss-q-short required" dir="auto" aria-label="	Email" aria-required="true" required="" title="" aria-invalid="true">
+			<textarea id="dmessage" type="text" placeholder="message"></textarea>
+			<button id="dsend">Send Message</button>
+		</form>
+		-->
+	<frame name="invisibleFrame" style="display: none;">
+	</frame>
+	<form action="https://docs.google.com/forms/d/1Q5T_T3tEUqKZzmS7BXi9pzwy57LbNSUlg5PlYdk1m_U/formResponse" method="POST" id="ss-form" target="_blank" onsubmit="">
+		<div class="ss-form-question errorbox-good" role="listitem">
+			<div dir="ltr" class="ss-item ss-item-required ss-text">
+				<div class="ss-form-entry">
+					<input type="text" name="entry.1692696562" value="" class="ss-q-short" id="entry_1692696562" dir="auto" aria-label="Name  " aria-required="true" required="" title="" placeholder="your name">
+				</div>
+			</div>
+		</div> 
+	<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item ss-item-required ss-text">
+			<div class="ss-form-entry">
+				<input type="email" name="entry.733698560" value="" class="ss-q-short" id="entry_733698560" dir="auto" aria-label="Email" aria-required="true" required="true" title="Must be a valid email address" placeholder="your email">
+			</div>
+		</div>
+	</div> 
+	
+		<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+			<div class="ss-form-entry">
+				<div class="ss-q-title">
+					<textarea name="entry.1678224435" rows="8" cols="0" class="ss-q-long" id="entry_1678224435" aria-required="true" required="true" placeholder="message"></textarea>
+				</div>
+			</div>
+		</div>
+	<input type="hidden" name="draftResponse" value="[,,&quot;-5648552772383786705&quot;]">
+	<input type="hidden" name="pageHistory" value="0">
+	<input type="hidden" name="fbzx" value="-5648552772383786705">
+	<button type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">Paer us!</button>
+</form>
+
+<!-- Sliding div ends here -->
+
+<!-- Slide Out -->
+<script>
+	$('#contactUs').hover(function(){
+		$('#slider').filter(':not(:animated)').animate({
+					right:'260px'
+				},'slow');
+			$('#slider_header').filter(':not(:animated)').animate({
+					right:'0px'
+				},'slow');
+	});
+</script>
+		
+<!-- Slide In -->
+<script>
+	function slideIn(){
+		$('#slider').filter(':not(:animated)').animate({
+			right:'0px'
+		},'slow');
+		$('#slider_header').filter(':not(:animated)').animate({
+			right:'-260px'
+		},'slow');
+	}
+	$('#slider').mouseleave(function(){
+		slideIn();
+	});
+	$('#slider_header').mouseleave(function(){
+		slideIn();
+	});
+</script>
+
+<script>
+
+	function sendMessage() {
+    	alert("test");
+        $.ajax({
+            type: 'POST',
+            url: 'https://docs.google.com/forms/d/1Q5T_T3tEUqKZzmS7BXi9pzwy57LbNSUlg5PlYdk1m_U/formResponse',
+            data: { "entry.1692696562": $('#entry_1692696562').value, 
+                    "entry.1678224435": $('#entry_1678224435').value,
+                    "entry.1678224435": $('#entry_1678224435').value
+                },
+            dataType: "xml",
+
+        });
+        alert("success");
+        return false;
+    }; 
+
+	function sendMail() 
+	{
+		//window.open('mailto:josephzhong@studentrnd.org?subject=subject&body=body');
+	    var link = "mailto:josephzhong@studentrnd.org"
+             + "?subject=" + escape("Hi! I'm " + document.getElementById("dname").value + "Let's Paer!") 
+             + "&body=" + escape(document.getElementById("dmessage").value);
+	    window.location.href = link;
+
+
+
+/*
+		var n = noty({
+		    layout: 'top',
+		    theme: 'relax', // or 'relax'
+		    type: 'success',
+		    text: 'Email sent! Thanks for Paering', // can be html or string
+		    dismissQueue: true, // If you want to use queue feature set this true
+		    template: '<div class="noty_message"><span class="noty_text"></span><div class="noty_close"></div></div>',
+		    animation: {
+		        open: {animated fadeInDown}, // or Animate.css class names like: 'animated bounceInLeft'
+		        close: {animated fadeOutUp}, // or Animate.css class names like: 'animated bounceOutLeft'
+		        easing: 'swing',
+		        speed: 1000 // opening & closing animation speed
+		    },
+		    timeout: 3000, // delay for closing event. Set false for sticky notifications
+		    force: false, // adds notification to the beginning of queue when set to true
+		    modal: false,
+		    maxVisible: 1, // you can set max visible notification for dismissQueue true option,
+		    killer: true, // for close all notifications before show
+		    closeWith: ['click', 'button', 'backdrop'], // ['click', 'button', 'hover', 'backdrop'] // backdrop click will close all notifications
+		    callback: {
+		        onShow: function() {},
+		        afterShow: function() {},
+		        onClose: function() {},
+		        afterClose: function() {},
+		        onCloseClick: function() {},
+		    },
+		    buttons: false // an array of buttons
+		};
+	*/
+	}
+</script>
+
+<script>
+	$('#dsend').click(function(){
+		sendMail();
+	});
+</script>
+
 		<script>
 			$('#HeadButton').click(function()
 			{
