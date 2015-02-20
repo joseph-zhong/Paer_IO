@@ -1,4 +1,27 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Paer - Daily Paer</title><description>Thoughts, stories and ideas...</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 20 Feb 2015 11:20:42 GMT</lastBuildDate><atom:link href="http://localhost:2368/author/paer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Paer - Daily Paer</title><description>Thoughts, stories and ideas...</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 20 Feb 2015 11:55:38 GMT</lastBuildDate><atom:link href="http://localhost:2368/author/paer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>PubNub feature: Instant Data Transfer between mobile devices</title><description>&lt;p&gt;In 30 hours, a team of five high schoolers had prototyped their iOS application at the &lt;a href="http://hackgeny.com/"&gt;HackGenY&lt;/a&gt; hackathon earlier this month. The team’s goal was to transform the modern business card as simply as possible. &lt;/p&gt;
+
+&lt;p&gt;The result is &lt;a href="http://paer.io/"&gt;Paer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.pubnub.com/blog/wp-content/uploads/2015/02/paer_gif.gif" alt="Paer Demo"&gt;&lt;/p&gt;
+
+&lt;p&gt;Paer is an iOS app that uses Bluetooth Low Energy Tech (BluetoothLE) to enable users to instantly exchange and transfer contact information and connect across numerous social platforms by simply touching phones. BLET is a faster and cheaper alternative to NFC, and the app essentially eliminates business cards by streamlining the process of networking.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h6 id="youcaneasilypaerwithsimplesteps"&gt;You can easily paer with  simple steps&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;create a personal profile with your information you wish to share  &lt;/li&gt;
+&lt;li&gt;choose the social medias you want to use to connect with others  &lt;/li&gt;
+&lt;li&gt;done! go out and paer!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;originally written by Joe Hanson, February 12, 2015. &lt;br&gt;
+Follow him &lt;a href="http://twitter.com/ToeJamson"&gt;@ToeJamson&lt;/a&gt;! &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See more at: &lt;a href="http://www.pubnub.com/blog/transfer-data-between-ios-devices-with-bluetooth-low-energy-tech/#sthash.JEPIBfV2.dpuf"&gt;http://www.pubnub.com/blog/transfer-data-between-ios-devices-with-bluetooth-low-energy-tech/#sthash.JEPIBfV2.dpuf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/2015/02/20/pubnub-feature-instant-data-transfer-between-mobile-devices/</link><guid isPermaLink="false">06d6acf6-08f9-4f1d-b4b0-7fd31abe6739</guid><dc:creator>Paer</dc:creator><pubDate>Fri, 20 Feb 2015 11:38:38 GMT</pubDate></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
 
 &lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
 
