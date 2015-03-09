@@ -896,12 +896,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
   text-decoration: underline;
 }
 a:focus {
@@ -2709,8 +2709,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #21ce99;
-  border-color: #21ce99;
+  background-color: rgba(163, 223, 223, 1); 
+  border-color: rgba(163, 223, 223, 1);
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2741,11 +2741,11 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #21ce99;
-  border-color: #21ce99;
+  background-color: rgba(163, 223, 223, 1);
+  border-color: rgba(163, 223, 223, 1);
 }
 .btn-default .badge {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
   background-color: #ffffff;
 }
 .btn-primary {
@@ -2954,7 +2954,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2975,7 +2975,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3542,7 +3542,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #21ce99;
+  border-color: rgba(163, 223, 223, 1);
 }
 .nav .nav-divider {
   height: 1px;
@@ -4022,7 +4022,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4033,7 +4033,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4074,7 +4074,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #21ce99;
+    color: rgba(163, 223, 223, 1);;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4095,13 +4095,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-default .navbar-link:hover {
   color: #040d14;
 }
 .navbar-default .btn-link {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
@@ -4118,7 +4118,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4129,7 +4129,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #999999;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4176,7 +4176,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #21ce99;
+    color: rgba(163, 223, 223, 1);;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4197,13 +4197,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
 .navbar-inverse .btn-link {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
@@ -4249,7 +4249,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.33333333;
   text-decoration: none;
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4269,7 +4269,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4464,7 +4464,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
@@ -4528,7 +4528,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #21ce99;
+  border-color: rgba(163, 223, 223, 1);;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -6224,7 +6224,7 @@ a {
     padding-bottom: 6px;
   }
   .navbar .navbar-nav a.selected {
-    border-bottom: 3px solid #21ce99;
+    border-bottom: 3px solid rgba(163, 223, 223, 1);;
   }
 }
 .navbar-form {
@@ -6423,8 +6423,8 @@ button.btn-default[disabled] .badge {
 }
 .btn-bordered {
   background: transparent;
-  border-color: #21ce99;
-  color: #21ce99;
+  border-color: rgba(163, 223, 223, 1);
+  color: rgba(163, 223, 223, 1);
   font-size: 16px;
   max-width: 100%;
   padding: 15px 12px 12px;
@@ -6434,8 +6434,8 @@ button.btn-default[disabled] .badge {
   width: 280px;
 }
 .btn-bordered:hover {
-  background: #21ce99;
-  border-color: #21ce99;
+  background: rgba(163, 223, 223, 1);
+  border-color: rgba(163, 223, 223, 1);
   color: #ffffff;
 }
 .btn-bordered-white {
@@ -6445,7 +6445,7 @@ button.btn-default[disabled] .badge {
 .btn-bordered-white:hover {
   background: #ffffff;
   border-color: #ffffff;
-  color: #21ce99;
+  color: rgba(163, 223, 223, 1);
 }
 .btn-condensed {
   font-size: 16px;
@@ -6475,7 +6475,7 @@ button.btn-default[disabled] .badge {
   text-align: center;
 }
 #robinhood_title {
-  font-weight: 300;
+  font-weight: 600;
 }
 .robinhood-tagline {
   margin: 0 0 4.5px;
