@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
   <head>
-    <title>Paer - instantly save contacts and connect on your social platforms </title>
+    <title>Paer - Instantly connect new contacts on all your social platforms.</title>
     <!-- Encoding-->
     <meta charset="utf-8">
     <!-- For all the mobile users-->
@@ -10,12 +10,11 @@
     <meta name="keywords" content="Paer, Paerme, Linkt, Knockit, Hack, HackGenY, Hackathon, Social, iPhone, iOS, PubNub">
     <meta name="description" content="instantly save contacts and connect on your social platforms - go Paer!">
     
-    
     <meta property="og:title" content="Paer">
     <meta property="og:site_name" content="Paer">
     <meta property="og:description" content="instantly save contacts and connect on your social platforms - go Paer!">
     <meta property="og:url" content="http://www.paer.io/">
-    <meta property="og:image" content="css/images/logo.jpg">
+    <meta property="og:image" content="../css/images/logo.jpg">
     <meta property="og:type" content="website">
     
     <!-- Joining the flock as a card-->
@@ -32,130 +31,80 @@
     <meta itemprop="image" content="http://www.paer.io/css/images/logo.jpg">
     <link rel="shortcut icon" href="http://www.paer.io/css/images/logo.ico" type="image/x-icon" />
     
-    
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <script src="js/bind-polyfill.js"></script>
+    <![endif]-->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/jquery.scrolly.min.js"></script>
     <script src="../js/jquery.poptrox.min.js"></script>
     <script src="../js/jquery.mousewheel.min.js"></script>
     <script src="../js/skel.min.js"></script>
     <script src="../js/init.js"></script>
+  
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     
+      ga('create', 'UA-59228210-1', 'auto');
+      ga('send', 'pageview');
     
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/animate.css" />
-      
-  
+    </script>
+    <!-- End Google Analytics -->
 
-  <link href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/favicon.ico" rel="shortcut icon">
-
-  <link
-    href="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/apple-touch-icons/iphone.png"
-    rel="apple-touch-icon"
-  >
-  <link
-    href="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/apple-touch-icons/ipad.png"
-    rel="apple-touch-icon"
-    sizes="76x76"
-  >
-  <link
-    href="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/apple-touch-icons/iphone-retina.png"
-    rel="apple-touch-icon"
-    sizes="120x120" 
-  >
-  <link
-    href="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/apple-touch-icons/ipad-retina.png"
-    rel="apple-touch-icon"
-    sizes="152x152"
-  >
-
-  
-  <link rel="stylesheet" href="https://brokerage-static.s3.amazonaws.com/assets/CACHE/css/7beda7ab3e4c.css" type="text/css" media="all" />
-
-  
-  <!--[if lt IE 9]>
-    <script src="https://brokerage-static.s3.amazonaws.com/assets/html5shiv/html5shiv.js"></script>
-    <script src="https://brokerage-static.s3.amazonaws.com/assets/respond/respond.min.js"></script>
-    <script src="https://brokerage-static.s3.amazonaws.com/assets/robinhood/js/bind-polyfill.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 </head>
-  
-<body>
-  
 
-
-<div id="content">
-  
-<div class="white-bg">
-
-  
-
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button
-        type="button"
-        class="navbar-toggle collapsed"
-        data-toggle="collapse"
-        data-target="#navbar_static_fixed">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-logo" href="/">
-        <img
-          alt="Robinhood logo"
-          src="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/logo.png"
-          data-at2x="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/logo%402x.png"
-        >
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div
-      class="collapse navbar-collapse"
-      id="navbar_static_fixed">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a
-            
-            href="/about/">
-            ABOUT
+<body>  
+<div id="content">  
+  <div class="white-bg">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button 
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar_static_fixed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo navbar-logo" href="/">
+            <img
+              height="40"
+              width="40">
           </a>
-        </li>
-        <li>
-          <a
-            
-            href="/jobs/">
-            JOBS
-          </a>
-        </li>
-        <li>
-          <a href="https://robinhoodapp.zendesk.com/hc/en-us" target="_blank">
-            FAQ
-          </a>
-        </li>
-        <li><a href="http://blog.robinhood.com" target="_blank">BLOG</a></li>
-        <li>
-          <div class="navbar-form">
-            
-            <button class="btn btn-default navbar-join-waitlist" type="button">
-              GET EARLY ACCESS
-            </button>
-            
-          </div>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        </div>
 
-  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div
+        class="collapse navbar-collapse"
+        id="navbar_static_fixed">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/about/">ABOUT</a></li>
+          <li><a href="/features/">FEATURES</a></li>
+          <li><a href="/faq/" target="_blank">FAQ</a></li>
+          <li><a href="/blog/" target="_blank">BLOG</a></li>
+          <li>
+            <div class="navbar-form">
+              <button class="btn btn-default navbar-join-waitlist" type="button">GET EARLY ACCESS</button>
+            </div>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-<nav class="navbar navbar-default navbar-fixed-top closed" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top closed" role="navigation"> 
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -171,10 +120,8 @@
       </button>
       <a class="navbar-logo" href="/">
         <img
-          alt="Robinhood logo"
-          src="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/logo.png"
-          data-at2x="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/logo%402x.png"
-        >
+          height="40"
+          width="40">
       </a>
     </div>
 
@@ -183,33 +130,13 @@
       class="collapse navbar-collapse"
       id="navbar_collapse_fixed">
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a
-            
-            href="/about/">
-            ABOUT
-          </a>
-        </li>
-        <li>
-          <a
-            
-            href="/jobs/">
-            JOBS
-          </a>
-        </li>
-        <li>
-          <a href="https://robinhoodapp.zendesk.com/hc/en-us" target="_blank">
-            FAQ
-          </a>
-        </li>
-        <li><a href="http://blog.robinhood.com" target="_blank">BLOG</a></li>
+        <li><a href="/about/">ABOUT</a></li>
+        <li><a href="/features/">FEATURES</a></li>
+        <li><a href="/FAQ/" target="_blank">FAQ</a></li>
+        <li><a href="/blog/" target="_blank">BLOG</a></li>
         <li>
           <div class="navbar-form">
-            
-            <button class="btn btn-default navbar-join-waitlist" type="button">
-              GET EARLY ACCESS
-            </button>
-            
+            <button class="btn btn-default navbar-join-waitlist" type="button">GET EARLY ACCESS</button>
           </div>
         </li>
       </ul>
@@ -217,33 +144,46 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
   <div class="container" id="lead_content">
     <div class="row">
       <div class="col-md-7 mbx">
         <h1 class="robinhood-tagline feature-header">
-          <div id="robinhood_title">Robinhood</div>
-          Zero commission stock trading.
-          Stop paying up to $10 for every trade.
+          <div id="robinhood_title">Paer</div>
+          Instantly connect new contacts on all your social platforms.
         </h1>
 
         <div id="waitlist_wrapper">
-          
+          <!--
+<form action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse" method="POST" id="ss-form" target="_blank" onsubmit="">
+      <div class="ss-form-question errorbox-good" role="listitem">
+        <div dir="ltr" class="ss-item ss-item-required ss-text">
+          <div class="ss-form-entry" style="text-align: center;">
+            <h1 id="email-list">Subscribe</h1>
+            <input type="email" placeholder="enter your email" name="entry.1579194098" value="" class="ss-q-short required" id="entry_1579194098" dir="auto" aria-label="Email" aria-required="true" required="true" title="" aria-invalid="true">
+          </div>
+        </div>
+      </div>
+      <input type="hidden" name="draftResponse" value="[,,&quot;3061552175398340696&quot;]">
+      <input type="hidden" name="pageHistory" value="0">
+      <input type="hidden" name="fbzx" value="3061552175398340696">
+    </form>
+-->
           <form
-            action="/join_waitlist/"
+            action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse"
             class="form-inline"
             data-parsley-validate
             id="join_waitlist_form"
             method="post"
-            role="form">
-            <input type='hidden' name='csrfmiddlewaretoken' value='A39LobLRi5CTtOkzohhp2tbY1ByvyJHX' />
+            role="form"
+            target="_blank">
+
             <div class="form-group waitlist-email-group">
               <label class="sr-only" for="join_waitlist_email">Email address</label>
               <div id="header_input_wrapper">
                 <input
                   class="form-control input-lg waitlist-email"
                   data-parsley-error-message="!"
-                  data-parsley-required="true"
+                  data-parsley-required="false"
                   data-parsley-trigger="change"
                   data-parsley-type="email"
                   id="join_waitlist_email"
@@ -261,112 +201,88 @@
                 Get Early Access
               </button>
             </div>
+            <input type="hidden" name="draftResponse" value="[,,&quot;3061552175398340696&quot;]">
+            <input type="hidden" name="pageHistory" value="0">
+            <input type="hidden" name="fbzx" value="3061552175398340696">
           </form>
           
         </div>
-
-        <a
+      <!-- Cleverly embedded video
+        <a 
           class="fancybox lead"
           href="http://vimeo.com/87163777"
           id="watch_video"
           target="_blank">
-          <img
-            alt="Robinhood video play button"
-            id="play_button"
-            src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/play_button.png"
-            data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/play_button%402x.png"
-          >
-          Watch Video
+          
+            <i class="fa fa-youtube-play fa-4x"></i> 
+          
         </a>
-
-        <div id="header_app_store">
-          <a
-            href="https://itunes.apple.com/us/app/robinhood-$0-commission-stock/id938003185?ls=1&mt=8"
-            target="_blank">
-            <img
-              alt="Download on the App Store"
-              src="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/app_store_badge.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/robinhood/images/app_store_badge%402x.png"
-            >
-          </a>
-        </div>
+      -->
       </div>
 
       <div class="col-md-4 col-md-push-1">
-        
         <img
-          alt="Robinhood app"
+          alt="Paer app"
           class="animation-placeholder downscale-fit hidden"
-          src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/home_animation_placeholder.png"
-          data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/home_animation_placeholder%402x.png"
-        >
+          src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/home_animation_placeholder.png">
         <div class="animation-container">
           <div class="home-animation" id="home_animation_light">
             <img
               alt="iPhone frame"
               class="animation-frame"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_light.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_light%402x.png"
-            >
-            <video autoplay="1" class="animation-video" id="home_animation_video_light" preload="1">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/home/home_animation_light.mp4">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/home/home_animation_light.webmhd.webm">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/hoe/home_animation_light.oggtheora.ogv">
-            </video>
-          </div>
-          <div class="home-animation" id="home_animation_dark">
-            <img
-              alt="iPhone frame"
-              class="animation-frame"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_dark.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_dark%402x.png"
-            >
-            <video class="animation-video" id="home_animation_video_dark" preload="1">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/home/home_animation_dark.mp4">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/home/home_animation_dark.webmhd.webm">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/home/home_animation_dark.oggtheora.ogv">
+              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_light.png">
+            <video autoplay="1" loop="1" muted="1" class="animation-video" id="home_animation_video_light" preload="1">
+              <source src="http://www.paer.io/vid/KnockitDemoV3.mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> <!-- End White Background-->
 
-<div id="features">
-  
+<!-- About Paer App -->
+<div id="features">  
   <div class="feature-block white-bg">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-10 col-md-offset-1">
           <h2 class="feature-header">
-            Say goodbye to trading commissions<br>
-            And hello to the future of trading
+            
+            <!--
+            Business cards...
+            <br>
+            Meet Mr. Social and Mrs. Techy
+            -->
+            
+            Welcome to Social Networking
+            <br>
+            ...for the 21st century
+            <!--
+            Hi Social Networking!
+            <br>
+            You look...new!
+            -->
           </h2>
         </div>
       </div>
       <div class="row mtl">
         <div class="col-md-7 col-md-push-5 lead mbl">
           <p class="mts">
-            Robinhood started with the idea that a technology-driven brokerage
-            could operate with significantly less overhead.
+             Paer initiated on the need to revolutionize the social networking scene.
           </p>
           <p>
-            We cut out the fat that makes other brokerages costly &mdash;
-            hundreds of storefront locations and manual account management.
+            The importance of social media and their role in keeping us connected can't be understated. Our closest relationships are defined by both, our face-to-face, and online interactions.
           </p>
           <p>
-            Zero-dollar ($0) commissions are available for self-directed
-            individual cash or margin brokerage accounts that trade U.S.
-            listed securities via mobile devices. Please see our
-            <a href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/RHF%20Retail%20Commisions%20and%20Fees%20Schedule.pdf">Commission and Fee Schedule</a>.
+            Paer bridges this crucial link - simply swipe up and touch phones, and boom! <br> You're instantly connected on social platforms of your choosing.
           </p>
           <div class="learn-more-button-wrapper mtm">
             <a
               class="btn btn-default btn-bordered"
               href="https://robinhoodapp.zendesk.com/hc/en-us/articles/202853769-How-does-Robinhood-make-money-"
               target="_blank">
-              Learn how we make money
+              Learn more
             </a>
           </div>
           <div class="learn-more-button-wrapper mts">
@@ -374,7 +290,7 @@
               class="btn btn-default btn-bordered"
               href="https://robinhoodapp.zendesk.com/hc/en-us/articles/203579955-How-is-Robinhood-similar-to-other-online-brokerages-such-as-E-Trade-Schwab-and-Scottrade-"
               target="_blank">
-              Compare brokerages
+              Visit our FAQ
             </a>
           </div>
         </div>
@@ -392,10 +308,8 @@
               src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_light.png"
               data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/phone_frame_light%402x.png"
             >
-            <video autoplay="1" class="animation-video" loop="1" preload="1">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/trade/trade_animation.mp4">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/trade/trade_animation.webmhd.webm">
-              <source src="https://brokerage-static.s3.amazonaws.com/assets/marketing/video/trade/trade_animation.oggtheora.ogv">
+            <video autoplay="1" loop="1" muted="1" class="animation-video" id="home_animation_video_light" preload="1">
+              <source src="http://www.paer.io/vid/KnockitDemoV3.mp4">
             </video>
           </div>
         </div>
@@ -403,325 +317,73 @@
     </div>
   </div>
 
-  
-  <div class="feature-block container">
-    <div class="row text-center">
-      <div class="col-md-8 col-md-offset-2">
-        <img
-          alt="Account protection"
-          class="downscale-fit"
-          src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/security.png"
-          data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/security%402x.png"
-        >
-        <h2 class="feature-header dark-feature-header mtl">
-          Account Protection<br>
-          Secure and Encrypted
-        </h2>
-        <p class="lead mtm">
-          Robinhood uses state-of-the-art security measures when handling your
-          information. Your sensitive personal information is fully encrypted and
-          securely stored.
-          <br>
-          <br>
-          Robinhood Financial is a member of the
-          <a href="http://www.finra.org">
-            Financial Industry Regulatory Authority (FINRA)</a> and the
-          <a href="http://www.sipc.org">Securities Investor Protection Corporation (SIPC)</a>,
-          which protects securities customers of its members up to $500,000
-          (including $250,000 for claims for cash). Explanatory brochure
-          available upon request or at
-          <a href="http://www.sipc.org">www.sipc.org</a>.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  
-  <div class="mini-feature feature-block white-bg text-center">
-    <div class="container">
-      <h2 class="feature-header">
-        Stay on top of your portfolio.<br>
-        Anytime. Anywhere.
-      </h2>
-
-      
-      <div class="row mtx mbx">
-        <div class="col-md-10 col-md-offset-1">
-          <img
-            alt="Fast execution"
-            class="downscale-fit"
-            src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/fast_execution.png"
-            data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/fast_execution%402x.png"
-          >
-          <h3 class="mini-feature-header lead mtm">Fast Execution</h3>
-          <div class="lead">
-            In the stock market, a fraction of a second can mean the difference
-            between a profit and a loss. Our team has built low-latency trading
-            systems used by some of the world’s largest financial institutions,
-            and we’re bringing that expertise to Robinhood. As a Robinhood
-            customer, your self-directed orders will receive the best possible
-            trade execution.
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="row mtx mbx">
-        <div class="col-md-10 col-md-offset-1">
-          <img
-            alt="Graphs"
-            class="downscale-fit"
-            src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/market_data.png"
-            data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/market_data%402x.png"
-          >
-          <h3 class="mini-feature-header lead mtl">Real-time Market Data</h3>
-          <div class="lead">
-            Robinhood’s servers stream market data from exchanges in real-time. So
-            while some brokerages delay quotes up to 20 minutes and charge for
-            real-time data, you’ll get timely quotes for free with Robinhood.
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="row mtx">
-        <div class="col-md-10 col-md-offset-1">
-          <img
-            alt="Smart alerts and notifications"
-            class="downscale-fit"
-            src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/smart_notifications.png"
-            data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/smart_notifications%402x.png"
-          >
-          <h3 class="mini-feature-header lead mtl">Smart Notifications</h3>
-          <div class="lead">
-            Robinhood notifies you in advance of scheduled events &mdash; like
-            earnings, dividends, or splits, so you can get up-to-date information
-            at the right time.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
+<!-- About Us -->  
   <div class="feature-block" id="about_team">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 mtx">
           <h2 class="feature-header dark-feature-header mtx">
-            We’re a team of digital natives with deep financial expertise,
-            backed by some of the world’s most notable investors.
+            We're a team of social butterflies
+            <br> only a little different from you.
           </h2>
+          <ul class="photo-grid">
+          <li>
+            <figure>
+              <img src="http://www.paer.io/images/team/AneeshFace3.png" height="230" width="230" alt="Aneesh">
+              <figcaption>
+                <p>Aneesh</p>
+              </figcaption>
+            </figure>
+          
+            <figure  >
+              <img src="http://www.paer.io/images/team/CalvinFace3.png" height="230" width="230" alt="Calvin">
+              <figcaption>
+                <p>Calvin</p>
+              </figcaption>
+            </figure>
+        
+            <figure  style="display: inline-block;">
+              <img src="http://www.paer.io/images/team/KateFace3.png" height="230" width="230" alt="Kathryn">
+              <figcaption>
+                <p>Kathryn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="http://www.paer.io/images/team/JackFace3.png" height="230" width="230" alt="Jack">
+              <figcaption>
+                <p>Jack</p>
+              </figcaption>
+            </figure>
+          
+            <figure  >
+              <img src="http://www.paer.io/images/team/JosephFace3.png" height="230" width="230" alt="Joseph">
+              <figcaption>
+                <p>Joseph</p>
+              </figcaption>
+            </figure>
+        
+            <figure  style="display: inline-block;">
+              <img src="http://www.paer.io/images/team/NikhilFace2.png" height="230" width="230" alt="Nikhil">
+              <figcaption>
+                <p>Nikhil</p>
+              </figcaption>
+            </figure>
+            
+          </li>
+        </ul>
           <a
             class="btn btn-default btn-bordered btn-bordered-white mtx mbx"
             href="/about/">
-            Learn more about us
+            Paer up with us!
           </a>
-          <div class="mtl mbx" id="investors">
-            <img
-              alt="Index Ventures"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/Index.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/Index%402x.png"
-            >
-            <img
-              alt="Ribbit Capital"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/RibbitCapital.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/RibbitCapital%402x.png"
-            >
-            <img
-              alt="Google Ventures"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/GoogleVentures.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/GoogleVentures%402x.png"
-            >
-            <img
-              alt="Andreessen Horowitz"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/Andreessen.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/Andreessen%402x.png"
-            >
-            <img
-              alt="Social Leverage"
-              src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/SocialLeverage.png"
-              data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/home/investors/SocialLeverage%402x.png"
-            >
-          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-</div>
-
-
-<div class="container" id="footer">
-  <div class="text-center social-links mtx mbx">
-    <a href="https://www.twitter.com/robinhoodapp" target="_blank">
-      <img
-        alt="Twitter"
-        class="social-icon"
-        src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/twitter.png"
-        data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/twitter%402x.png"
-      >
-    </a>
-    <a href="http://www.linkedin.com/company/3254263" target="_blank">
-      <img
-        alt="LinkedIn"
-        class="social-icon"
-        src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/linkedin.png"
-        data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/linkedin%402x.png"
-      >
-    </a>
-    <a href="https://www.facebook.com/robinhoodapp" target="_blank">
-      <img
-        alt="Facebook"
-        class="social-icon"
-        src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/facebook.png"
-        data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/facebook%402x.png"
-      >
-    </a>
-    <a href="mailto:support@robinhood.com" target="_blank">
-      <img
-        alt="Email"
-        class="social-icon"
-        src="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/email.png"
-        data-at2x="https://brokerage-static.s3.amazonaws.com/assets/marketing/images/social/email%402x.png"
-      >
-    </a>
-  </div>
-
-  <div class="row mbx">
-    <div class="col-md-5 col-md-offset-1">
-      
-
-Zero-dollar ($0) commissions are available for Robinhood Financial
-self-directed individual cash or margin brokerage accounts that trade U.S.
-listed securities via mobile devices. Please see our
-<a
-  href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/RHF%20Retail%20Commisions%20and%20Fees%20Schedule.pdf"
-  target="_blank">
-  Commission and Fee Schedule</a>.
-<br><br>
-      
-
-Robinhood is currently registered in the following
-<a
-  href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/RHF%20Jurisdictions.pdf"
-  target="_blank">jurisdictions</a>.
-This is not an offer, solicitation of an offer, or advice to buy or sell
-securities, or open a brokerage account in any jurisdiction where Robinhood is
-not registered. Getting &quot;early access&quot; to Robinhood is defined as
-signing up with a valid email address for a spot in Robinhood's waitlist queue.
-You can improve your spot in the queue each time you refer someone who signs
-up with a valid email address. There is no limitation on the number of
-referrals you can make and the number of positions you can move in line.
-Residents of jurisdictions where Robinhood is registered will be notified
-first, based on their current position in line and will be given an invitation
-to access Robinhood's brokerage account opening application process. Early
-access to Robinhood's waitlist queue should in no way be construed as
-confirmation that a brokerage account has been opened or will even be approved
-for opening.
-<br><br>
-      All investments involve risk and the past performance of a security, or
-financial product does not guarantee future results or returns. Keep in mind
-that while diversification may help spread risk it does not assure a profit, or
-protect against loss, in a down market. There is always the potential of losing
-money when you invest in securities, or other financial products. Investors
-should consider their investment objectives and risks carefully before
-investing.
-<br><br>
-      
-
-Margin trading involves interest charges and risks, including the potential to
-lose more than deposited or the need to deposit additional collateral in a
-falling market. Before using margin, customers must determine whether this
-type of trading strategy is right for them given their specific investment
-objectives, experience, risk tolerance, and financial situation. For more
-information please see our
-<a
-  href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/RHF%20Margin%20Account%20Disclosure.pdf"
-  target="_blank">
-  Margin Disclosure Statement,</a>
-<a
-  href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/RHF%20Margin%20Agreement.pdf"
-  target="_blank">
-  Margin Agreement</a>
-and
-<a
-  href="http://www.finra.org/Investors/SmartInvesting/AdvancedInvesting/MarginInformation/P005927"
-  target="_blank">
-  FINRA Investor Information</a>.
-These disclosures contain information on our lending policies, interest
-charges, and the risks associated with margin accounts.
-<br><br>
-      Investors should consider the investment objectives and unique risk profile of
-Exchange Traded Funds (ETFs) carefully before investing. ETFs are subject to
-risks similar to those of other diversified portfolios. Leveraged and Inverse
-ETFs may not be suitable for all investors and may increase exposure to
-volatility through the use of leverage, short sales of securities, derivatives
-and other complex investment strategies.
-
-    </div>
-    <div class="col-md-5">
-      
-
-Although ETFs are designed to
-provide investment results that generally correspond to the performance of
-their respective underlying indices, they may not be able to exactly replicate
-the performance of the indices because of expenses and other factors.  A
-prospectus contains this and other information about the ETF and should be read
-carefully before investing.  Customers should obtain prospectuses from issuers
-and/or their third party agents who distribute and make prospectuses available
-for review.  ETFs are required to distribute portfolio gains to shareholders
-at year end. These gains may be generated by portfolio rebalancing or the need
-to meet diversification requirements. ETF trading will also generate tax
-consequences.  Additional regulatory guidance on Exchange Traded Products can
-be found by clicking
-<a
-  href="http://www.sec.gov/investor/alerts/etfs.pdf"
-  target="_blank">
-  here</a>.
-<br><br>
-      System response, execution price, speed, liquidity, market data, and account
-access times are affected by many factors, including market volatility, size
-and type of order, market conditions, system performance, and other factors.
-<br><br>
-      Robinhood communications and communications emanating from its social media
-community are for informational purposes only and are not intended as an offer
-or solicitation for the purchase or sale of any financial instrument or as an
-official confirmation of any transaction. The Robinhood website provides its
-users links to social media sites and email. The linked social media and email
-messages are pre-populated. However, these messages can be deleted or edited by
-Robinhood users, who are under no obligation to send any pre-populated
-messages. All market prices, data and other information available through
-Robinhood are not warranted as to completeness or accuracy and are subject to
-change without notice. Any comments or statements made herein do not reflect
-the views of Robinhood Markets Inc., Robinhood Financial, LLC or any of their
-subsidiaries or affiliates.
-<br><br>
-      Note that certain Robinhood product features listed are currently in
-development and will be available soon.
-<br><br>
-      All securities and investments are offered to self-directed customers by
-Robinhood Financial, LLC, member
-<a href="http://finra.org" target="_blank">FINRA</a> &amp;
-<a href="http://sipc.org" target="_blank">SIPC</a>. Robinhood Financial, LLC is
-a wholly owned subsidiary of Robinhood Markets, Inc.
-<br><br>
-      
-
-<a
-  href="https://brokerage-static.s3.amazonaws.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf"
-  target="_blank">
-  Robinhood Terms &amp; Conditions</a>&emsp;
-<a href="/legal/" target="_blank">Disclosure Library</a>&emsp;
-<a href="mailto:support@robinhood.com" target="_blank">Contact Us</a>&emsp;
-<a href="https://robinhoodapp.zendesk.com/hc/en-us" target="_blank">FAQ</a>
-<br><br>
-      Copyright &copy; 2014 Robinhood, All rights reserved.
-
-    </div>
-    </div>
-  </div>
 </div>
 
 
@@ -739,7 +401,7 @@ a wholly owned subsidiary of Robinhood Markets, Inc.
       </div>
       <div class="modal-body text-center">
         <form
-          action="/join_waitlist/"
+          action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse"
           class="form-inline"
           data-parsley-validate
           id="nav_waitlist_form"
@@ -773,32 +435,27 @@ a wholly owned subsidiary of Robinhood Markets, Inc.
     </div>
   </div>
 </div>
-
-
-
   
-  <script type="text/javascript" src="https://brokerage-static.s3.amazonaws.com/assets/CACHE/js/c83634b88e7f.js"></script>
+<div class="icons text-center social-links mtx mbx">
+    
+      <i><a href="https://twitter.com/PaerMe" class="fa fa-twitter fa-2x"></a></i>
+      <i><a href="https://www.youtube.com/channel/UCVZA_oye0DU5dGx8KCFzubg" class="fa fa-youtube fa-2x"></a></i>
+      <i><a href="https://www.facebook.com/pages/Paer/1540333672908767" class="fa fa-facebook fa-2x"></a>
+      <!--
+      <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      <li><a href="#" class="icon fa-trello"><span class="label">Trello</span></a></li>
+      -->
+</div>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="copyright">
+        <ul class="menu">
+          <li>Copyright &copy; 2015 <a href="#">Paer</a>. All rights reserved. | <a href="#team">Meet the team</a>.</li>
+        </ul>
+      </div>
 
-    
-    
-      
-        
-          ga('create', 'UA-46330882-2', 'robinhood.com');
-        
-      
-    
-    ga('require', 'displayfeatures');
-    
-      ga('send', 'pageview');
-    
-  </script>
-  
+  <script type="text/javascript" src="js/1.js"></script>
+
 <script>
   $(function() {
     // 'dimension2' corresponds to the referrer token
