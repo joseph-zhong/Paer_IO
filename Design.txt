@@ -1,0 +1,25 @@
+Main Page
+	FAQ (General)
+	Blog
+	Subscribe/Get Early Access
+
+	Intro
+		Early Access
+		Demo/Vid (Update needed)
+
+	About
+		Stuff
+		Learn More -> FAQ
+
+	Team
+		Click -> Contact Popup (TODO)
+
+	Social Links
+		Twitter
+		Youtube
+		(LinkedIn)
+		Facebook
+
+	CopyRight
+
+
