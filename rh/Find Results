@@ -1,0 +1,17 @@
+Searching 5 files for "/join"
+
+/Applications/MAMP/htdocs/PaerLocal/rh/about/index.html:
+  629        <div class="modal-body text-center">
+  630          <form
+  631:           action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse"
+  632            class="form-inline"
+  633            data-parsley-validate
+
+/Applications/MAMP/htdocs/PaerLocal/rh/index.html:
+  402        <div class="modal-body text-center">
+  403          <form
+  404:           action="https://docs.google.com/forms/d/1jaqtPhQs8KLvyFwmxZT4ihGvAeKUPbLDLgHCr35dIU0/formResponse"
+  405            class="form-inline"
+  406            data-parsley-validate
+
+2 matches across 2 files
